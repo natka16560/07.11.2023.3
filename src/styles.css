@@ -1,9 +1,18 @@
 .App {
   font-family: sans-serif;
-  text-align: center;
+  text-align: center;  
+
 }
 
 .header {
   display: flex;
   justify-content: space-around;
 }
+
+.section{
+  height: 100vh;
+}
+
+  *{
+    scroll-behavior: smooth;
+  }
